@@ -1,4 +1,6 @@
-from flask import Flask, render_template, request
+import Flask
+import render_template
+import request
 from keras.models import load_model
 from PIL import Image
 import numpy as np
@@ -9,11 +11,14 @@ import base64
 app = Flask(__name__)
 
 # Load your trained model
-#model = pickle.load(open('model.pkl', 'rb'))
+# model = pickle.load(open('model.pkl', 'rb'))
 model = load_model('model_catsVSdogs_10epoch.h5')
+
+
 @app.route('/')
 def index():
     return render_template('index.html', uploaded_image=None, prediction=None, confidence=None, error=None)
+
 
 @app.route('/predict', methods=['POST'])
 def predict():
@@ -35,11 +40,13 @@ def predict():
         # Convert the image to base64 for display in HTML
         buffered = io.BytesIO()
         image.save(buffered, format="JPEG")
-        img_str = "data:image/jpeg;base64," + base64.b64encode(buffered.getvalue()).decode("utf-8")
+        img_str = "data:image/jpeg;base64," + \
+            base64.b64encode(buffered.getvalue()).decode("utf-8")
 
         return render_template('index.html', uploaded_image=img_str, prediction=predicted_label, confidence=confidence, error=None)
     else:
         return render_template('index.html', uploaded_image=None, prediction=None, confidence=None, error='Please upload an image.')
+
 
 if __name__ == '__main__':
     app.run(debug=True)
