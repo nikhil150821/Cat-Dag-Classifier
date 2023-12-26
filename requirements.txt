@@ -5,3 +5,9 @@ keras==2.6.0
 scikit-learn
 matplotlib
 Pillow
+render_template
+request
+PIL
+pickle
+io
+base64

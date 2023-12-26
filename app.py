@@ -1,4 +1,4 @@
-import Flask
+from flask import Flask
 import render_template
 import request
 from keras.models import load_model
