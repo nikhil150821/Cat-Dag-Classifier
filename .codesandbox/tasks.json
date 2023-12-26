@@ -2,6 +2,14 @@
   // These tasks will run in order when initializing your CodeSandbox project.
   "setupTasks": [
     {
+      "name": "pip install --upgrade setuptools",
+      "command": "pip install --upgrade setuptools"
+    },
+    {
+      "name": "pip install numpy==1.18.0 --only-binary :all:",
+      "command": "pip install numpy==1.26.0b1 --only-binary :all:"
+    },
+    {
       "name": "pip install -r requirements.txt",
       "command": "pip install -r requirements.txt"
     }
