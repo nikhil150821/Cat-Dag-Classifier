@@ -1,12 +1,10 @@
-from flask import Flask
-import render_template
-import request
-from keras.models import load_model
-from PIL import Image
-import numpy as np
-import pickle
-import io
 import base64
+import io
+import pickle
+import numpy as np
+from PIL import Image
+from keras.models import load_model
+from flask import Flask, render_template, request
 
 app = Flask(__name__)
 
