@@ -1,0 +1,56 @@
+body {
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    text-align: center;
+    margin: 20px;
+    background-color: #001C30;
+    color: #ffffff;
+}
+
+h1 {
+    color: #E19898;
+    font-size:xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+form {
+    margin-top: 20px;
+}
+
+/* Add this style for the file upload button */
+input[type="file"] {
+    width: 500px;
+    padding: 10px;
+    border: 2px solid #7360DF; /* Border color */
+    border-radius: 25px;
+    background-color: #33186B; /* Background color */
+    color: #b99df2; /* Text color */
+}
+
+/* Style the file upload button on hover */
+input[type="file"]:hover {
+    background-color: #7360DF;
+    color: white;
+}
+
+
+button {
+    padding: 10px;
+    background-color: #7360DF;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ffffff;
+    color:#33186B;
+}
+
+h2, p {
+    margin-top: 20px;
+}
+
+.error {
+    color: #FF0000;
+}
