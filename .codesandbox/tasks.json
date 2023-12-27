@@ -19,7 +19,7 @@
     },
     {
       "name": "pip install tensorflow",
-      "command": "pip install tensorflow"
+      "command": "pip install tf2"
     }
   ],
 
@@ -27,7 +27,7 @@
   "tasks": {
     "start": {
       "name": "start",
-      "command": "python main.py",
+      "command": "python app.py",
       "runAtStart": true
     },
     "python app.py": {
