@@ -15,7 +15,7 @@
     },
     {
       "name": "pip install cv2",
-      "command": "pip install opencv"
+      "command": "pip install tensorflow"
     }
   ],
 
