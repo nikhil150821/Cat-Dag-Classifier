@@ -3,6 +3,8 @@ import io
 import pickle
 import numpy as np
 from PIL import Image
+import sys
+sys.path.append('./.keras')
 from keras.models import load_model
 from flask import Flask, render_template, request
 
