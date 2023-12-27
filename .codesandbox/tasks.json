@@ -6,12 +6,16 @@
       "command": "pip install --upgrade setuptools"
     },
     {
+      "name": "pip install cv2",
+      "command": "pip install cmake"
+    },
+    {
       "name": "pip install -r requirements.txt",
       "command": "pip3 install -r requirements.txt"
     },
     {
       "name": "pip install cv2",
-      "command": "pip install cv2"
+      "command": "pip install opencv"
     }
   ],
 
