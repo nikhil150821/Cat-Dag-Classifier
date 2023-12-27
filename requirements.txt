@@ -1,8 +1,7 @@
 Flask==2.3.3
 Pillow==8.4.0
 numpy==1.26.0b1
-
+pandas
 scikit-learn
 keras
 matplotlib
-tensorflow
