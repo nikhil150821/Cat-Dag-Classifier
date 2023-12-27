@@ -6,14 +6,6 @@
       "command": "pip install --upgrade setuptools"
     },
     {
-      "name": "pip install numpy==1.21.0",
-      "command": "pip3 install wheel==0.36.2"
-    },
-    {
-      "name": "pip3 install wheel==0.36.2",
-      "command": "pip3 install numpy==1.26.0b1"
-    },
-    {
       "name": "pip install -r requirements.txt",
       "command": "pip3 install -r requirements.txt"
     }

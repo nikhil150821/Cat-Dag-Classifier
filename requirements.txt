@@ -1,8 +1,8 @@
-pip==23.3.2
-Cython==0.29.24
 Flask==2.3.3
-keras==2.6.0
-scikit-learn
-matplotlib
 Pillow==8.4.0
+numpy==1.26.0b1
+
+scikit-learn
+keras
+matplotlib
 tensorflow
