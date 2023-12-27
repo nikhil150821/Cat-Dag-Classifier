@@ -5,3 +5,4 @@ keras==2.6.0
 scikit-learn
 matplotlib
 Pillow==8.4.0
+tensorflow
