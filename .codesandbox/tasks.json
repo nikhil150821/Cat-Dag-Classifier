@@ -6,20 +6,16 @@
       "command": "pip install --upgrade setuptools"
     },
     {
-      "name": "pip install numpy==1.21.0",
-      "command": "pip3 install wheel==0.36.2"
-    },
-    {
-      "name": "pip3 install wheel==0.36.2",
-      "command": "pip3 install numpy==1.26.0b1"
+      "name": "pip install cv2",
+      "command": "pip install cmake"
     },
     {
       "name": "pip install -r requirements.txt",
       "command": "pip3 install -r requirements.txt"
     },
     {
-      "name": "pip install tensorflow",
-      "command": "pip install tf2"
+      "name": "pip install cv2",
+      "command": "pip install tensorflow_cpu-2.15.0-cp311-cp311-win_amd64.whl"
     }
   ],
 
