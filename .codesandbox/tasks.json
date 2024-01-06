@@ -15,7 +15,7 @@
     },
     {
       "name": "pip install cv2",
-      "command": "pip install tensorflow"
+      "command": "pip install tensorflow_cpu-2.15.0-cp311-cp311-win_amd64.whl"
     }
   ],
 
